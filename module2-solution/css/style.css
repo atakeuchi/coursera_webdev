@@ -5,40 +5,53 @@
     font-family: sans-serif;
   }
 
-
 h1 {
-    font-size:175;
+    font-size:175%;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 section {
-    font-size:125;
+    font-size:125%;
     border: 1px solid black;
-    margin-bottom: 15px;
-    background-color: gainsboro;
-    width: 90%;
+    margin: 1%;
+    background-color:antiquewhite;
+    width: 92%;
+    padding-left :  1%;
+    padding-bottom :  1%;
+    text-align: right;
 }
 
-section h2 {
+h3 {
+    text-align: right;
+    display: inline-block;
+    border: 1px solid black;
     margin-top: 0%;
     margin-right: 0%;
+    padding: 1%;
 }
-#sec1 h2 {
+p {
+    text-align: left;
+}
+#sec1 h3 {
     background-color: olive;
 }
-#sec2 h2{
-    background-color:orange;
+#sec2 h3{
+    background-color:sandybrown;
 }
-#sec3 h2{
-    background-color:rosybrown
+#sec3 h3{
+    background-color:rosybrown;
 }
 
+.row {
+    width: 100%;
+}
 
 /**Desktop**/
 @media (min-width: 992px) {
     .col3 {
         float: left;
-        width: 33%
+        width: 30%
     }
 }
 
@@ -46,7 +59,11 @@ section h2 {
 @media (min-width: 768px) AND (max-width: 991px){
     .col2 {
         float: left;
-        width: 50%
+        width: 45%
+    }
+    .col1 {
+        float: left;
+        width: 92%        
     }
 }
 
